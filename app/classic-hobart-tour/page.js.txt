@@ -11,13 +11,10 @@ export default function ClassicHobartTourPage() {
             Day 1 | Hobart City Highlights + Richmond + Mount Wellington
           </h2>
 
-          <ul className="list-disc space-y-2 pl-6 text-lg text-gray-700">
-            <li>Airport pickup in Hobart</li>
-            <li>Visit the historic village of Richmond</li>
-            <li>Explore Salamanca Place and the waterfront</li>
-            <li>Walk around Battery Point</li>
-            <li>Drive to kunanyi / Mount Wellington</li>
-          </ul>
+          <p className="text-lg text-gray-700">
+            Airport pickup in Hobart, Richmond historic village,
+            Salamanca Place, Battery Point, and Mount Wellington.
+          </p>
         </section>
 
         <section className="mb-16">
@@ -25,13 +22,10 @@ export default function ClassicHobartTourPage() {
             Day 2 | Bruny Island Nature & Gourmet Experience
           </h2>
 
-          <ul className="list-disc space-y-2 pl-6 text-lg text-gray-700">
-            <li>Ferry to Bruny Island</li>
-            <li>Visit The Neck Lookout</li>
-            <li>Fresh oyster tasting</li>
-            <li>Cheese and local produce tasting</li>
-            <li>Explore Adventure Bay</li>
-          </ul>
+          <p className="text-lg text-gray-700">
+            Oyster tasting, cheese tasting, Adventure Bay,
+            The Neck Lookout, and coastal scenery.
+          </p>
         </section>
 
         <section className="mb-16">
@@ -39,12 +33,10 @@ export default function ClassicHobartTourPage() {
             Day 3 | Port Arthur & Tasman Peninsula
           </h2>
 
-          <ul className="list-disc space-y-2 pl-6 text-lg text-gray-700">
-            <li>Visit Tasman Arch</li>
-            <li>Explore Devil’s Kitchen</li>
-            <li>Visit Port Arthur Historic Site</li>
-            <li>Optional wilderness cruise</li>
-          </ul>
+          <p className="text-lg text-gray-700">
+            Port Arthur Historic Site, Tasman Arch,
+            Devil’s Kitchen, and dramatic coastal cliffs.
+          </p>
         </section>
 
         <section>
@@ -52,12 +44,10 @@ export default function ClassicHobartTourPage() {
             Day 4 | Freycinet National Park & Wineglass Bay
           </h2>
 
-          <ul className="list-disc space-y-2 pl-6 text-lg text-gray-700">
-            <li>Visit Freycinet National Park</li>
-            <li>Walk to Wineglass Bay Lookout</li>
-            <li>Explore Honeymoon Bay</li>
-            <li>Scenic walk at Cape Tourville</li>
-          </ul>
+          <p className="text-lg text-gray-700">
+            Wineglass Bay lookout, Honeymoon Bay,
+            Cape Tourville, and Tasmania east coast scenery.
+          </p>
         </section>
       </div>
     </main>
