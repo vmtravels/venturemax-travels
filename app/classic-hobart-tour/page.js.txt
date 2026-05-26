@@ -1,1 +1,65 @@
 export default function ClassicHobartTourPage() {
+  return (
+    <main className="min-h-screen bg-white px-6 py-16">
+      <div className="mx-auto max-w-5xl">
+        <h1 className="mb-10 text-5xl font-bold">
+          Classic 4-Day Hobart Itinerary
+        </h1>
+
+        <section className="mb-16">
+          <h2 className="mb-4 text-3xl font-semibold">
+            Day 1 | Hobart City Highlights + Richmond + Mount Wellington
+          </h2>
+
+          <ul className="list-disc space-y-2 pl-6 text-lg text-gray-700">
+            <li>Airport pickup in Hobart</li>
+            <li>Visit the historic village of Richmond</li>
+            <li>Explore Salamanca Place and the waterfront</li>
+            <li>Walk around Battery Point</li>
+            <li>Drive to kunanyi / Mount Wellington</li>
+          </ul>
+        </section>
+
+        <section className="mb-16">
+          <h2 className="mb-4 text-3xl font-semibold">
+            Day 2 | Bruny Island Nature & Gourmet Experience
+          </h2>
+
+          <ul className="list-disc space-y-2 pl-6 text-lg text-gray-700">
+            <li>Ferry to Bruny Island</li>
+            <li>Visit The Neck Lookout</li>
+            <li>Fresh oyster tasting</li>
+            <li>Cheese and local produce tasting</li>
+            <li>Explore Adventure Bay</li>
+          </ul>
+        </section>
+
+        <section className="mb-16">
+          <h2 className="mb-4 text-3xl font-semibold">
+            Day 3 | Port Arthur & Tasman Peninsula
+          </h2>
+
+          <ul className="list-disc space-y-2 pl-6 text-lg text-gray-700">
+            <li>Visit Tasman Arch</li>
+            <li>Explore Devil’s Kitchen</li>
+            <li>Visit Port Arthur Historic Site</li>
+            <li>Optional wilderness cruise</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2 className="mb-4 text-3xl font-semibold">
+            Day 4 | Freycinet National Park & Wineglass Bay
+          </h2>
+
+          <ul className="list-disc space-y-2 pl-6 text-lg text-gray-700">
+            <li>Visit Freycinet National Park</li>
+            <li>Walk to Wineglass Bay Lookout</li>
+            <li>Explore Honeymoon Bay</li>
+            <li>Scenic walk at Cape Tourville</li>
+          </ul>
+        </section>
+      </div>
+    </main>
+  );
+}
